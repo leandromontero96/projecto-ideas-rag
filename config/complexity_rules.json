@@ -1,0 +1,114 @@
+{
+  "complexity_factors": {
+    "data_complexity": {
+      "weight": 0.2,
+      "description": "Complexity related to data volume, variety, and velocity",
+      "indicators": {
+        "large dataset": 0.7,
+        "big data": 0.9,
+        "multiple sources": 0.6,
+        "multiple data sources": 0.6,
+        "real-time": 0.8,
+        "streaming": 0.9,
+        "streaming data": 0.9,
+        "terabytes": 1.0,
+        "petabytes": 1.0,
+        "high velocity": 0.8,
+        "data quality": 0.5,
+        "unstructured": 0.7,
+        "semi-structured": 0.6
+      }
+    },
+    "algorithm_complexity": {
+      "weight": 0.3,
+      "description": "Complexity of algorithms and models used",
+      "indicators": {
+        "deep learning": 0.9,
+        "neural network": 0.8,
+        "cnn": 0.8,
+        "rnn": 0.9,
+        "lstm": 0.9,
+        "gru": 0.9,
+        "transformer": 1.0,
+        "bert": 1.0,
+        "gpt": 1.0,
+        "ensemble": 0.6,
+        "linear regression": 0.2,
+        "logistic regression": 0.2,
+        "decision tree": 0.3,
+        "random forest": 0.4,
+        "xgboost": 0.5,
+        "gradient boosting": 0.5,
+        "svm": 0.5,
+        "k-means": 0.3,
+        "reinforcement learning": 1.0,
+        "transfer learning": 0.7,
+        "gan": 1.0,
+        "autoencoder": 0.7
+      }
+    },
+    "technical_skills": {
+      "weight": 0.25,
+      "description": "Technical expertise and skills required",
+      "indicators": {
+        "distributed computing": 0.9,
+        "cloud deployment": 0.7,
+        "cloud": 0.6,
+        "api development": 0.6,
+        "rest api": 0.5,
+        "microservices": 0.8,
+        "docker": 0.6,
+        "kubernetes": 0.8,
+        "data visualization": 0.3,
+        "etl": 0.5,
+        "data pipeline": 0.6,
+        "database": 0.4,
+        "sql": 0.3,
+        "nosql": 0.5,
+        "spark": 0.7,
+        "airflow": 0.6,
+        "mlops": 0.7,
+        "ci/cd": 0.6,
+        "version control": 0.2
+      }
+    },
+    "integration_complexity": {
+      "weight": 0.15,
+      "description": "Complexity of system integration and dependencies",
+      "indicators": {
+        "multiple systems": 0.7,
+        "legacy integration": 0.8,
+        "legacy system": 0.8,
+        "third-party api": 0.6,
+        "external api": 0.6,
+        "data integration": 0.5,
+        "system integration": 0.6,
+        "enterprise": 0.7,
+        "cross-platform": 0.6
+      }
+    },
+    "deployment_complexity": {
+      "weight": 0.1,
+      "description": "Complexity of deployment and operations",
+      "indicators": {
+        "production": 0.6,
+        "production-ready": 0.7,
+        "scalability": 0.7,
+        "scalable": 0.7,
+        "high availability": 0.8,
+        "monitoring": 0.5,
+        "alerting": 0.5,
+        "ci/cd": 0.6,
+        "automated deployment": 0.6,
+        "load balancing": 0.7,
+        "auto-scaling": 0.7,
+        "disaster recovery": 0.8
+      }
+    }
+  },
+  "complexity_thresholds": {
+    "basic": {"min": 0.0, "max": 0.35},
+    "intermediate": {"min": 0.35, "max": 0.65},
+    "advanced": {"min": 0.65, "max": 1.0}
+  }
+}

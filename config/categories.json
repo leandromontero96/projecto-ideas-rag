@@ -1,0 +1,302 @@
+{
+  "prediction": {
+    "description": "Forecasting and predictive modeling projects",
+    "keywords": {
+      "forecast": 1.0,
+      "forecasting": 1.0,
+      "predict": 1.0,
+      "prediction": 1.0,
+      "predictive": 1.0,
+      "regression": 0.9,
+      "time series": 0.8,
+      "demand": 0.7,
+      "sales forecast": 0.9,
+      "predictive model": 1.0,
+      "revenue projection": 0.8,
+      "future trends": 0.7
+    },
+    "examples": [
+      "Sales forecasting",
+      "Demand prediction",
+      "Revenue projection",
+      "Production forecasting"
+    ]
+  },
+  "classification": {
+    "description": "Classification and categorization projects",
+    "keywords": {
+      "classification": 1.0,
+      "classify": 1.0,
+      "categorize": 0.9,
+      "categorization": 0.9,
+      "binary": 0.7,
+      "multi-class": 0.8,
+      "logistic regression": 0.8,
+      "random forest": 0.6,
+      "decision tree": 0.6,
+      "label": 0.7,
+      "category": 0.7
+    },
+    "examples": [
+      "Customer segmentation",
+      "Email classification",
+      "Product categorization",
+      "Risk classification"
+    ]
+  },
+  "computer_vision": {
+    "description": "Image processing and computer vision projects",
+    "keywords": {
+      "computer vision": 1.0,
+      "image": 0.9,
+      "vision": 0.8,
+      "object detection": 1.0,
+      "image recognition": 1.0,
+      "ocr": 1.0,
+      "optical character recognition": 1.0,
+      "facial recognition": 1.0,
+      "cnn": 0.9,
+      "convolutional": 0.9,
+      "yolo": 0.9,
+      "segmentation": 0.7,
+      "visual": 0.6
+    },
+    "examples": [
+      "Quality inspection",
+      "Object detection",
+      "Facial recognition",
+      "Document OCR"
+    ]
+  },
+  "nlp": {
+    "description": "Natural Language Processing and text analysis projects",
+    "keywords": {
+      "nlp": 1.0,
+      "natural language": 1.0,
+      "text analysis": 1.0,
+      "sentiment": 1.0,
+      "sentiment analysis": 1.0,
+      "entity extraction": 1.0,
+      "named entity": 0.9,
+      "text mining": 0.9,
+      "topic modeling": 0.9,
+      "language model": 0.9,
+      "tokenization": 0.8,
+      "embeddings": 0.7
+    },
+    "examples": [
+      "Sentiment analysis",
+      "Chatbot development",
+      "Document classification",
+      "Entity extraction"
+    ]
+  },
+  "optimization": {
+    "description": "Optimization and operations research projects",
+    "keywords": {
+      "optimization": 1.0,
+      "optimize": 1.0,
+      "resource allocation": 1.0,
+      "route planning": 1.0,
+      "scheduling": 0.9,
+      "linear programming": 0.9,
+      "genetic algorithm": 0.9,
+      "minimize": 0.8,
+      "maximize": 0.8,
+      "constraints": 0.7,
+      "efficiency": 0.6
+    },
+    "examples": [
+      "Route optimization",
+      "Resource allocation",
+      "Production scheduling",
+      "Inventory optimization"
+    ]
+  },
+  "dashboard": {
+    "description": "Business intelligence and dashboard projects",
+    "keywords": {
+      "dashboard": 1.0,
+      "business intelligence": 1.0,
+      "bi": 0.8,
+      "reporting": 0.9,
+      "visualization": 0.8,
+      "kpi": 0.9,
+      "metrics": 0.7,
+      "tableau": 0.9,
+      "power bi": 0.9,
+      "analytics dashboard": 1.0,
+      "report": 0.6
+    },
+    "examples": [
+      "Executive dashboard",
+      "Sales analytics",
+      "KPI tracking",
+      "Performance monitoring"
+    ]
+  },
+  "data_engineering": {
+    "description": "Data engineering and ETL pipeline projects",
+    "keywords": {
+      "data engineering": 1.0,
+      "etl": 1.0,
+      "pipeline": 0.9,
+      "data pipeline": 1.0,
+      "data warehouse": 1.0,
+      "data lake": 1.0,
+      "airflow": 0.9,
+      "spark": 0.8,
+      "kafka": 0.8,
+      "ingestion": 0.9,
+      "data integration": 1.0
+    },
+    "examples": [
+      "ETL pipeline",
+      "Data warehouse setup",
+      "Real-time data ingestion",
+      "Data lake architecture"
+    ]
+  },
+  "exploratory_analysis": {
+    "description": "Exploratory data analysis and statistical analysis projects",
+    "keywords": {
+      "exploratory": 1.0,
+      "eda": 1.0,
+      "statistical analysis": 1.0,
+      "data exploration": 1.0,
+      "descriptive": 0.8,
+      "correlation": 0.8,
+      "distribution": 0.7,
+      "hypothesis testing": 0.9,
+      "statistical": 0.8
+    },
+    "examples": [
+      "Market research analysis",
+      "Customer behavior study",
+      "Statistical analysis",
+      "Data profiling"
+    ]
+  },
+  "anomaly_detection": {
+    "description": "Anomaly and fraud detection projects",
+    "keywords": {
+      "anomaly": 1.0,
+      "anomaly detection": 1.0,
+      "fraud": 1.0,
+      "fraud detection": 1.0,
+      "outlier": 0.9,
+      "outlier detection": 1.0,
+      "unusual": 0.7,
+      "abnormal": 0.8,
+      "deviation": 0.7
+    },
+    "examples": [
+      "Fraud detection",
+      "Equipment anomaly detection",
+      "Network intrusion detection",
+      "Quality anomaly detection"
+    ]
+  },
+  "time_series": {
+    "description": "Time series analysis and forecasting projects",
+    "keywords": {
+      "time series": 1.0,
+      "temporal": 0.8,
+      "arima": 0.9,
+      "prophet": 0.9,
+      "seasonal": 0.8,
+      "trend": 0.7,
+      "seasonality": 0.9,
+      "autocorrelation": 0.8
+    },
+    "examples": [
+      "Stock price forecasting",
+      "Energy demand forecasting",
+      "Seasonal trend analysis",
+      "Weather prediction"
+    ]
+  },
+  "recommendation": {
+    "description": "Recommendation system projects",
+    "keywords": {
+      "recommendation": 1.0,
+      "recommender": 1.0,
+      "collaborative filtering": 1.0,
+      "content-based": 0.9,
+      "personalization": 0.9,
+      "suggest": 0.7,
+      "recommendation engine": 1.0
+    },
+    "examples": [
+      "Product recommendation",
+      "Content recommendation",
+      "Personalized suggestions",
+      "Next best action"
+    ]
+  },
+  "clustering": {
+    "description": "Clustering and segmentation projects",
+    "keywords": {
+      "clustering": 1.0,
+      "cluster": 0.9,
+      "segmentation": 1.0,
+      "k-means": 0.9,
+      "dbscan": 0.9,
+      "hierarchical": 0.8,
+      "grouping": 0.7
+    },
+    "examples": [
+      "Customer segmentation",
+      "Market segmentation",
+      "Product grouping",
+      "Behavioral clustering"
+    ]
+  },
+  "a_b_testing": {
+    "description": "A/B testing and experimentation projects",
+    "keywords": {
+      "a/b testing": 1.0,
+      "a/b test": 1.0,
+      "experiment": 0.8,
+      "testing": 0.6,
+      "variant": 0.7,
+      "control group": 0.8,
+      "hypothesis": 0.6
+    },
+    "examples": [
+      "Website A/B testing",
+      "Product feature testing",
+      "Marketing campaign testing",
+      "Pricing experiments"
+    ]
+  },
+  "etl": {
+    "description": "ETL and data transformation projects",
+    "keywords": {
+      "etl": 1.0,
+      "extract": 0.8,
+      "transform": 0.8,
+      "load": 0.6,
+      "data transformation": 1.0,
+      "data migration": 0.9
+    },
+    "examples": [
+      "Data migration",
+      "Database sync",
+      "Data transformation",
+      "Legacy system integration"
+    ]
+  },
+  "other": {
+    "description": "Other data analyst projects",
+    "keywords": {
+      "data analysis": 0.5,
+      "analytics": 0.5,
+      "data science": 0.5
+    },
+    "examples": [
+      "Custom analytics project",
+      "Specialized analysis"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+# Core RAG Dependencies
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-anthropic==0.1.11
+chromadb==0.4.24
+sentence-transformers==2.5.1
+
+# Document Processing
+pypdf==4.1.0
+python-docx==1.1.0
+openpyxl==3.1.2
+unstructured==0.12.5
+markdown==3.5.2
+
+# Web Interface
+streamlit==1.32.2
+plotly==5.20.0
+pandas==2.2.1
+altair==5.2.0
+
+# NLP and Metadata Extraction
+spacy==3.7.4
+keybert==0.8.4
+yake==0.4.8
+
+# Data Validation
+pydantic==2.6.3
+
+# Caching
+diskcache==5.6.3
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.2
+numpy==1.26.4
+tiktoken==0.6.0
+anthropic==0.21.3
+
+# Development
+pytest==8.1.1
+black==24.3.0

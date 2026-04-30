@@ -1,0 +1,130 @@
+{
+  "programming_languages": [
+    {"name": "Python", "aliases": ["py", "python3", "python2"]},
+    {"name": "R", "aliases": ["r-lang", "rstudio"]},
+    {"name": "SQL", "aliases": ["t-sql", "pl/sql", "postgresql", "mysql", "sql server"]},
+    {"name": "Julia", "aliases": ["julialang"]},
+    {"name": "Scala", "aliases": []},
+    {"name": "Java", "aliases": ["jav"]},
+    {"name": "JavaScript", "aliases": ["js", "node.js", "nodejs"]},
+    {"name": "Go", "aliases": ["golang"]},
+    {"name": "SAS", "aliases": []},
+    {"name": "MATLAB", "aliases": []}
+  ],
+  "ml_frameworks": [
+    {"name": "scikit-learn", "aliases": ["sklearn", "sk-learn"]},
+    {"name": "TensorFlow", "aliases": ["tf", "tensorflow2"]},
+    {"name": "PyTorch", "aliases": ["torch"]},
+    {"name": "XGBoost", "aliases": ["xgb"]},
+    {"name": "LightGBM", "aliases": ["lgbm", "lightgbm"]},
+    {"name": "CatBoost", "aliases": []},
+    {"name": "Keras", "aliases": []},
+    {"name": "MLflow", "aliases": []},
+    {"name": "H2O.ai", "aliases": ["h2o"]},
+    {"name": "AutoML", "aliases": []},
+    {"name": "Prophet", "aliases": ["fbprophet"]},
+    {"name": "Statsmodels", "aliases": []},
+    {"name": "spaCy", "aliases": []},
+    {"name": "NLTK", "aliases": []},
+    {"name": "Hugging Face", "aliases": ["transformers", "huggingface"]},
+    {"name": "OpenCV", "aliases": ["cv2"]},
+    {"name": "YOLO", "aliases": ["yolov5", "yolov8"]},
+    {"name": "Fast.ai", "aliases": ["fastai"]}
+  ],
+  "data_tools": [
+    {"name": "Pandas", "aliases": ["pd"]},
+    {"name": "NumPy", "aliases": ["np", "numpy"]},
+    {"name": "Apache Spark", "aliases": ["pyspark", "spark"]},
+    {"name": "Dask", "aliases": []},
+    {"name": "Polars", "aliases": []},
+    {"name": "Vaex", "aliases": []},
+    {"name": "Arrow", "aliases": ["pyarrow", "apache arrow"]},
+    {"name": "DuckDB", "aliases": []},
+    {"name": "SQLAlchemy", "aliases": []}
+  ],
+  "visualization": [
+    {"name": "Tableau", "aliases": []},
+    {"name": "Power BI", "aliases": ["powerbi", "microsoft power bi"]},
+    {"name": "Matplotlib", "aliases": ["plt"]},
+    {"name": "Plotly", "aliases": []},
+    {"name": "Seaborn", "aliases": ["sns"]},
+    {"name": "D3.js", "aliases": ["d3"]},
+    {"name": "Bokeh", "aliases": []},
+    {"name": "Altair", "aliases": []},
+    {"name": "Streamlit", "aliases": []},
+    {"name": "Dash", "aliases": ["plotly dash"]},
+    {"name": "Grafana", "aliases": []},
+    {"name": "Looker", "aliases": []},
+    {"name": "Metabase", "aliases": []},
+    {"name": "Superset", "aliases": ["apache superset"]}
+  ],
+  "databases": [
+    {"name": "PostgreSQL", "aliases": ["postgres", "psql"]},
+    {"name": "MySQL", "aliases": ["mariadb"]},
+    {"name": "MongoDB", "aliases": ["mongo"]},
+    {"name": "Snowflake", "aliases": []},
+    {"name": "BigQuery", "aliases": ["google bigquery", "gcp bigquery"]},
+    {"name": "Redshift", "aliases": ["amazon redshift", "aws redshift"]},
+    {"name": "Oracle", "aliases": ["oracle db"]},
+    {"name": "SQL Server", "aliases": ["mssql", "microsoft sql server"]},
+    {"name": "Cassandra", "aliases": ["apache cassandra"]},
+    {"name": "Redis", "aliases": []},
+    {"name": "Elasticsearch", "aliases": ["elastic"]},
+    {"name": "DynamoDB", "aliases": ["aws dynamodb"]},
+    {"name": "SQLite", "aliases": []},
+    {"name": "ClickHouse", "aliases": []}
+  ],
+  "cloud_platforms": [
+    {"name": "AWS", "aliases": ["amazon web services", "ec2", "s3", "lambda"]},
+    {"name": "Azure", "aliases": ["microsoft azure", "azure ml"]},
+    {"name": "GCP", "aliases": ["google cloud", "google cloud platform", "gcs"]},
+    {"name": "Databricks", "aliases": []},
+    {"name": "Kubernetes", "aliases": ["k8s"]},
+    {"name": "Docker", "aliases": []},
+    {"name": "Heroku", "aliases": []},
+    {"name": "Digital Ocean", "aliases": ["digitalocean"]}
+  ],
+  "etl_orchestration": [
+    {"name": "Apache Airflow", "aliases": ["airflow"]},
+    {"name": "Prefect", "aliases": []},
+    {"name": "Dagster", "aliases": []},
+    {"name": "Luigi", "aliases": []},
+    {"name": "dbt", "aliases": ["data build tool"]},
+    {"name": "Fivetran", "aliases": []},
+    {"name": "Stitch", "aliases": []},
+    {"name": "Talend", "aliases": []}
+  ],
+  "data_quality": [
+    {"name": "Great Expectations", "aliases": []},
+    {"name": "Soda", "aliases": ["soda sql"]},
+    {"name": "deequ", "aliases": []},
+    {"name": "Pandera", "aliases": []}
+  ],
+  "monitoring_mlops": [
+    {"name": "MLflow", "aliases": []},
+    {"name": "Weights & Biases", "aliases": ["wandb"]},
+    {"name": "Neptune.ai", "aliases": ["neptune"]},
+    {"name": "Kubeflow", "aliases": []},
+    {"name": "SageMaker", "aliases": ["aws sagemaker", "amazon sagemaker"]},
+    {"name": "Vertex AI", "aliases": ["google vertex ai"]},
+    {"name": "Azure ML", "aliases": ["azure machine learning"]}
+  ],
+  "notebook_environments": [
+    {"name": "Jupyter", "aliases": ["jupyter notebook", "jupyterlab"]},
+    {"name": "Google Colab", "aliases": ["colab"]},
+    {"name": "Kaggle Notebooks", "aliases": ["kaggle"]},
+    {"name": "Databricks Notebooks", "aliases": []},
+    {"name": "Deepnote", "aliases": []},
+    {"name": "Observable", "aliases": []}
+  ],
+  "version_control": [
+    {"name": "Git", "aliases": ["github", "gitlab", "bitbucket"]},
+    {"name": "DVC", "aliases": ["data version control"]},
+    {"name": "LakeFS", "aliases": []}
+  ],
+  "feature_stores": [
+    {"name": "Feast", "aliases": []},
+    {"name": "Tecton", "aliases": []},
+    {"name": "Hopsworks", "aliases": []}
+  ]
+}

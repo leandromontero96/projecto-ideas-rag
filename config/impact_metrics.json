@@ -1,0 +1,130 @@
+{
+  "roi_patterns": [
+    {
+      "name": "roi_percentage",
+      "pattern": "(?:roi|return on investment)[:\\s]+(\\d+(?:\\.\\d+)?)\\s*%",
+      "description": "ROI as percentage",
+      "unit": "percentage"
+    },
+    {
+      "name": "roi_ratio",
+      "pattern": "(?:roi|return)[:\\s]+(\\d+(?:\\.\\d+)?)[:\\s]*(?:1|to\\s*1)",
+      "description": "ROI as ratio (e.g., 2:1)",
+      "unit": "ratio"
+    }
+  ],
+  "cost_savings_patterns": [
+    {
+      "name": "dollar_amount",
+      "pattern": "(?:save|savings?|reduce costs?)[:\\s]+\\$?([\\d,]+(?:\\.\\d{2})?)",
+      "description": "Cost savings in dollars",
+      "unit": "USD"
+    },
+    {
+      "name": "percentage_reduction",
+      "pattern": "(?:reduce|decrease)\\s+(?:costs?|expenses?)\\s+by\\s+(\\d+)\\s*%",
+      "description": "Cost reduction as percentage",
+      "unit": "percentage"
+    },
+    {
+      "name": "annual_savings",
+      "pattern": "\\$?([\\d,]+)\\s*(?:per|/)\\s*year",
+      "description": "Annual savings",
+      "unit": "USD/year"
+    }
+  ],
+  "time_savings_patterns": [
+    {
+      "name": "hours",
+      "pattern": "(?:save|reduce time)[:\\s]+([\\d.]+)\\s*(?:hours?|hrs?)",
+      "description": "Time savings in hours",
+      "unit": "hours"
+    },
+    {
+      "name": "days",
+      "pattern": "(?:save|reduce time)[:\\s]+([\\d.]+)\\s*days?",
+      "description": "Time savings in days",
+      "unit": "days"
+    },
+    {
+      "name": "weeks",
+      "pattern": "(?:save|reduce time)[:\\s]+([\\d.]+)\\s*weeks?",
+      "description": "Time savings in weeks",
+      "unit": "weeks"
+    },
+    {
+      "name": "percentage_reduction",
+      "pattern": "(?:reduce|decrease)\\s+(?:time|duration)\\s+by\\s+(\\d+)\\s*%",
+      "description": "Time reduction as percentage",
+      "unit": "percentage"
+    }
+  ],
+  "efficiency_patterns": [
+    {
+      "name": "efficiency_gain",
+      "pattern": "(?:efficiency|productivity)\\s+(?:gain|increase)[:\\s]+(\\d+)\\s*%",
+      "description": "Efficiency improvement",
+      "unit": "percentage"
+    },
+    {
+      "name": "throughput_increase",
+      "pattern": "(?:throughput|capacity)\\s+increase[:\\s]+(\\d+)\\s*%",
+      "description": "Throughput increase",
+      "unit": "percentage"
+    }
+  ],
+  "revenue_patterns": [
+    {
+      "name": "revenue_increase",
+      "pattern": "(?:revenue|income|sales)\\s+increase[:\\s]+\\$?([\\d,]+)",
+      "description": "Revenue increase",
+      "unit": "USD"
+    },
+    {
+      "name": "revenue_growth",
+      "pattern": "(?:revenue|sales)\\s+growth[:\\s]+(\\d+)\\s*%",
+      "description": "Revenue growth percentage",
+      "unit": "percentage"
+    }
+  ],
+  "effort_patterns": [
+    {
+      "name": "effort_hours",
+      "pattern": "(?:effort|work|development)[:\\s]+([\\d,]+)\\s*(?:hours?|hrs?)",
+      "description": "Implementation effort in hours",
+      "unit": "hours"
+    },
+    {
+      "name": "effort_days",
+      "pattern": "(?:effort|work|development)[:\\s]+([\\d,]+)\\s*days?",
+      "description": "Implementation effort in days",
+      "unit": "days"
+    },
+    {
+      "name": "effort_weeks",
+      "pattern": "(?:effort|work|development)[:\\s]+([\\d,]+)\\s*weeks?",
+      "description": "Implementation effort in weeks",
+      "unit": "weeks"
+    },
+    {
+      "name": "effort_months",
+      "pattern": "(?:effort|work|development)[:\\s]+([\\d,]+)\\s*months?",
+      "description": "Implementation effort in months",
+      "unit": "months"
+    }
+  ],
+  "business_value_indicators": [
+    "customer satisfaction",
+    "customer retention",
+    "customer lifetime value",
+    "market share",
+    "competitive advantage",
+    "brand value",
+    "employee productivity",
+    "decision making",
+    "risk reduction",
+    "compliance",
+    "quality improvement",
+    "innovation"
+  ]
+}
